@@ -10,6 +10,7 @@
 		342E796D234242D6009A8116 /* Coolness.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E796B234242D6009A8116 /* Coolness.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		342E7970234242D6009A8116 /* Coolness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342E7969234242D6009A8116 /* Coolness.framework */; };
 		342E7971234242D6009A8116 /* Coolness.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 342E7969234242D6009A8116 /* Coolness.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34968B412343A0A60053D9D2 /* RedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34968B402343A0A60053D9D2 /* RedButton.swift */; };
 		34B213FC23411DCD00891F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B213FB23411DCD00891F23 /* AppDelegate.swift */; };
 		34B213FE23411DCD00891F23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B213FD23411DCD00891F23 /* SceneDelegate.swift */; };
 		34B2140023411DCD00891F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B213FF23411DCD00891F23 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		342E7969234242D6009A8116 /* Coolness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Coolness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		342E796B234242D6009A8116 /* Coolness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coolness.h; sourceTree = "<group>"; };
 		342E796C234242D6009A8116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34968B402343A0A60053D9D2 /* RedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedButton.swift; sourceTree = "<group>"; };
 		34B213F823411DCD00891F23 /* Empty Window.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Empty Window.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B213FB23411DCD00891F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34B213FD23411DCD00891F23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				34B213FB23411DCD00891F23 /* AppDelegate.swift */,
+				34968B402343A0A60053D9D2 /* RedButton.swift */,
 				34B213FD23411DCD00891F23 /* SceneDelegate.swift */,
 				34B213FF23411DCD00891F23 /* ViewController.swift */,
 				34B2140123411DCE00891F23 /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34B2140023411DCD00891F23 /* ViewController.swift in Sources */,
+				34968B412343A0A60053D9D2 /* RedButton.swift in Sources */,
 				34B213FC23411DCD00891F23 /* AppDelegate.swift in Sources */,
 				34B213FE23411DCD00891F23 /* SceneDelegate.swift in Sources */,
 			);
